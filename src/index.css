@@ -1,6 +1,10 @@
 @import "tailwindcss";
-
+@font-face {
+  font-family: yekan-bakh;
+  src: url("./assets/fonts/yekan-bakh.ttf");
+}
 @theme {
+  --font-yekan-bakh: yekan-bakh;
   --color-primary: oklch(68.381% 0.14574 236.628);
   --color-background: oklch(96.829% 0.00542 286.001);
   --breakpoint-sm: 428px;
@@ -16,15 +20,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 html {
-  @apply flex justify-center items-center;
+  @apply flex justify-center items-center !font-yekan-bakh;
 }
 body {
   margin: 0;
-  @apply sm:max-w-[428px] sm:min-w-[428px] w-screen bg-background min-h-screen;
+  @apply relative sm:max-w-[428px] sm:min-w-[428px] w-screen bg-background min-h-screen;
 }
