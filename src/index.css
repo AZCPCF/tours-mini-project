@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: oklch(68.381% 0.14574 236.628);
+  --color-background: oklch(96.829% 0.00542 286.001);
+  --breakpoint-sm: 428px;
+}
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-color: oklch(86.995% 0.0001 271.152);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  @apply flex justify-center items-center;
+}
+body {
+  margin: 0;
+  @apply sm:max-w-[428px] sm:min-w-[428px] w-screen bg-background min-h-screen;
+}
