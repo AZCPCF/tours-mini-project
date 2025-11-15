@@ -1,5 +1,5 @@
-import IndexFooter from "./components/footer";
-import IndexHeader from "./components/header";
+import IndexFooter from "@/components/pages/index/footer";
+import IndexHeader from "@/components/pages/index/header";
 
 export default function IndexPage() {
   return (

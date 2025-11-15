@@ -10,7 +10,7 @@
   --breakpoint-sm: 428px;
 }
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: yekan-bakh;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
@@ -19,11 +19,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 html {
   @apply !font-yekan-bakh;
 }
@@ -40,4 +35,12 @@ body {
 
 .direction-ltr {
   direction: ltr;
+}
+button {
+  cursor: pointer;
+}
+textarea {
+  resize: none;
+  white-space: nowrap;
+  overflow-x: scroll;
 }

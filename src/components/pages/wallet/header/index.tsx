@@ -1,6 +1,6 @@
 import { PlusIcon } from "@/assets/icons";
-import { BackLink } from "@/components/back-link";
-import { Price } from "@/components/price";
+import { BackLink } from "@/components/common/back-link";
+import { Price } from "@/components/common/price";
 
 const WalletHeader = () => {
   return (

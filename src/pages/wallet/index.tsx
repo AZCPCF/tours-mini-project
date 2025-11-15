@@ -1,5 +1,5 @@
-import WalletHeader from "./components/header";
-import { WalletList } from "./components/wallet-list";
+import WalletHeader from "@/components/pages/wallet/header";
+import { WalletList } from "@/components/pages/wallet/wallet-list";
 
 export default function WalletPage() {
   return (
