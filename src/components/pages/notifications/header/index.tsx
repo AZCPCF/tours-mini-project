@@ -39,11 +39,9 @@ const NotificationsHeader = ({
             <NotificationOutlineIcon />
           )}
           <p>اعلان‌ها</p>
-          {active == "notifications" ? (
-            <div className="bg-[#F25267] w-5 h-5 absolute -top-2 -right-3 text-white rounded-full text-center flex justify-center items-center">
-              1
-            </div>
-          ) : undefined}
+          <div className="bg-[#F25267] w-5 h-5 absolute -top-2 -right-3 text-white rounded-full text-center flex justify-center items-center">
+            {active == "notifications" ? 1 : 6}
+          </div>
         </Link>
       </div>
       <BackLink />
