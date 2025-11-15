@@ -1,11 +1,11 @@
-import Footer from "./components/footer";
-import Header from "./components/header";
+import IndexFooter from "./components/footer";
+import IndexHeader from "./components/header";
 
 export default function IndexPage() {
   return (
     <div>
-      <Header />
-      <Footer />
+      <IndexHeader />
+      <IndexFooter />
     </div>
   );
 }

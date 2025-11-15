@@ -1,10 +1,10 @@
 
 import { MenuIcon, NotificationIcon, WalletIcon } from "@/assets/icons";
-import { HeaderLink } from "./header-button";
+import { HeaderLink } from "./header-link";
 
-const Header = () => {
+const IndexHeader = () => {
   return (
-    <header className="bg-white h-[90px] flex justify-between p-4 drop-shadow-xs">
+    <header className="bg-white flex justify-between py-4 px-2 drop-shadow-xs">
       <div className="flex gap-4">
         <HeaderLink icon={NotificationIcon} to={'/notifications'} />
         <HeaderLink icon={WalletIcon} to={'/wallet'} badge />
@@ -13,4 +13,4 @@ const Header = () => {
     </header>
   );
 };
-export default Header;
+export default IndexHeader;
